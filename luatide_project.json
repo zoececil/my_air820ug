@@ -1,0 +1,13 @@
+{
+	"version": "2.2",
+	"projectType": "pure",
+	"corePath": "C:\\Users\\16708\\AppData\\Roaming\\LuatIDE\\LuatideCore\\Air72XUX_CORE\\LuatOS-HMI_V3211_RDA8910.pac",
+	"libPath": "C:\\Users\\16708\\AppData\\Roaming\\LuatIDE\\LuatideLib\\Air72XUX_LIB\\V2.4.2\\lib",
+	"moduleModel": "air72XUX/air82XUX",
+	"appFile": [
+		"luatide_project.json",
+		"main.lua",
+		"myuart"
+	],
+	"modulePort": ""
+}
