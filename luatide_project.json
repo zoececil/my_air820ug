@@ -7,7 +7,7 @@
 	"appFile": [
 		"luatide_project.json",
 		"main.lua",
-		"myuart"
+		"myuart.lua"
 	],
 	"modulePort": ""
 }

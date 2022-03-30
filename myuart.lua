@@ -1,7 +1,7 @@
 
 -- local my_util = require("utils")
 require 'utils'
-local my_pm = require("pm")
+require("pm")
 
 local myUart_Temp = {}
 
@@ -39,11 +39,11 @@ function myUart_Temp.write(s)
     uart.write(myUart_Temp.Uart_ID,s.."\r\n")
 end
 
-local function myUart_Temp.writeOk()
+function myUart_Temp.writeOk()
     log.info("testUartTask.writeOk")
 end
 
-my_pm.wake("testUartTask")
+pm.wake("testUartTask")
 --注册串口的数据发送通知函数
 uart.on(myUart_Temp.Uart_ID,"sent",myUart_Temp.writeOk)
 uart.on(myUart_Temp.Uart_ID,"receive",function() sys.publish("UART_RECEIVE") end)
