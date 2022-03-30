@@ -4,15 +4,9 @@ require 'log'
 LOG_LEVEL = log.LOGLEVEL_TRACE
 require 'sys'
 
+one_uart = require("myuart")
 
-
-sys.taskInit(function()
-	while true do
-		-- log.info('test',array)
-		log.info('Hello world!')
-		sys.wait(1000)
-	end
-end)
+sys.taskInit(one_uart.taskRead)
 
 sys.init(0, 0)
 sys.run()
