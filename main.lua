@@ -5,9 +5,7 @@ LOG_LEVEL = log.LOGLEVEL_TRACE
 require 'sys'
 
 require "net"
---每1分钟查询一次GSM信号强度
---每1分钟查询一次基站信息
-net.startQueryAll(60000, 60000)
+net.startQueryAll(60000, 60000)    --每1分钟查询一次GSM信号强度和基站信息
 
 --此处关闭RNDIS网卡功能
 --否则，模块通过USB连接电脑后，会在电脑的网络适配器中枚举一个RNDIS网卡，电脑默认使用此网卡上网，导致模块使用的sim卡流量流失
@@ -43,9 +41,12 @@ errDump.request("udp://dev_msg1.openluat.com:12425", nil, true)
 --require "update"
 --update.request()
 
+--加载uart功能
 local one_uart = require("myuart")
-
 sys.taskInit(one_uart.taskRead)
+--加载ADC电压采集功能
+local one_adc = require("myadc")
+sys.timerLoopStart(one_adc.vbatt,1000)
 
 sys.init(0, 0)
 sys.run()
