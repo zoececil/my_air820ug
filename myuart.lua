@@ -1,7 +1,7 @@
 
 -- local my_util = require("utils")
 require 'utils'
-require("pm")
+require 'pm'
 
 local myUart_Temp = {}
 
