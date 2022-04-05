@@ -43,8 +43,7 @@ errDump.request("udp://dev_msg1.openluat.com:12425", nil, true)
 --PRODUCT_KEY = "v32xEAKsGTIEQxtqgwCldp5aPlcnPs3K"
 --require "update"
 --update.request()
-
--- sys.timerLoopStart(net.getRssi,1000)
+-------------------------------------------------------------------------------------
 --加载uart功能
 local one_uart = require("myuart")
 sys.taskInit(one_uart.taskRead)
@@ -54,6 +53,9 @@ sys.timerLoopStart(one_adc.vbatt,1000)
 --加载基站定位及信号强度获取
 local one_lbsLoc = require("mylbsLoc")
 one_lbsLoc.reqLbsLoc()
-
+--获取设备信号强度
+local one_nets = require("mynets")
+sys.timerLoopStart(one_nets.showRssi,5000)
+---------------------------------------------------------------------------------------
 sys.init(0, 0)
 sys.run()

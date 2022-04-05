@@ -32,6 +32,5 @@ function myLbsLoc_Temp.getLocCb(result,lat,lng,addr,time,locType)
 end
 
 return myLbsLoc_Temp
--- myLbsLoc_Temp.reqLbsLoc()
 
 

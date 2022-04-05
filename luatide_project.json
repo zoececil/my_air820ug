@@ -9,7 +9,8 @@
 		"main.lua",
 		"myuart.lua",
 		"myadc.lua",
-		"mylbsLoc.lua"
+		"mylbsLoc.lua",
+		"mynets.lua"
 	],
 	"modulePort": ""
 }
