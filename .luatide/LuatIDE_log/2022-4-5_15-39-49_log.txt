@@ -1,0 +1,296 @@
+2022-04-05 15:39:51.0495 AT+LUATCONSOLE=1
+
+2022-04-05 15:39:51.0495 
+
+2022-04-05 15:39:51.0513 ATI
+
+2022-04-05 15:39:51.0523 
+
+2022-04-05 15:39:51.0523 LuatOS-HMI_V3211_RDA8910
+
+2022-04-05 15:39:51.0533 
+
+2022-04-05 15:39:51.0533 OK
+
+2022-04-05 15:39:51.0543 AT+LUACHECKSUM=a0cdf8aa4fd442a1d01ac98d72cc6893
+
+2022-04-05 15:39:51.0570 
+
+2022-04-05 15:39:51.0573 +LUACHECKSUM: 0
+
+2022-04-05 15:39:51.0573 
+
+2022-04-05 15:39:51.0573 OK
+
+2022-04-05 15:39:52.0458 > [I]-[vbatt.read] 4538
+
+2022-04-05 15:39:53.0719 [I]-[vbatt.read] 4538
+
+2022-04-05 15:39:54.0759 [I]-[vbatt.read] 4538
+
+2022-04-05 15:39:54.2470 AT+RESET
+
+2022-04-05 15:39:58.3124 AT+LUATCONSOLE=1
+
+2022-04-05 15:39:58.3134 
+
+2022-04-05 15:40:01.5085 
+
+2022-04-05 15:40:01.5085 +CPIN: READY
+
+2022-04-05 15:40:01.5095 
+
+2022-04-05 15:40:01.5095 ^CARDMODE: 2
+
+2022-04-05 15:40:02.7195 > lualibc_fopen fail -4200062,0,/lib_err.txt
+
+2022-04-05 15:40:02.7216 [E]-[errDump.luaErr] /lua/sys.lua:494: attempt to call local 'cb' (a number value)
+
+2022-04-05 15:40:02.7228 stack traceback:
+
+2022-04-05 15:40:02.7231 	/lua/sys.lua:494: in function 'run'
+
+2022-04-05 15:40:02.7235 	/lua/main.lua:54: in main chunk
+
+2022-04-05 15:40:02.7235 	[C]: ?
+
+2022-04-05 15:40:02.7247 lualibc_fopen fail -4200062,0,/lib_network_err.txt
+
+2022-04-05 15:40:02.7255 [E]-[errDump.firmwareAssertErr] func=OPENAT_assert-line=ac-ra=0
+
+2022-04-05 15:40:02.7634 [I]-[poweron reason:] 3 test 2.0.0 2.4.2 LuatOS-HMI_V3211_RDA8910
+
+2022-04-05 15:40:02.7644 [I]-[core build time] Feb 11 2022 21:32:19
+
+2022-04-05 15:40:02.7684 [I]-[ril.proatc] RDY
+
+2022-04-05 15:40:02.7699 [I]-[ril.proatc] +CPIN: READY
+
+2022-04-05 15:40:02.7719 [I]-[ril.proatc] ^CARDMODE: 2
+
+2022-04-05 15:40:02.7729 [I]-[ril.defurc] ^CARDMODE: 2
+
+2022-04-05 15:40:02.7749 [I]-[ril.sendat] ATE0
+
+2022-04-05 15:40:02.7769 [I]-[SIM.subscribe] nil RDY
+
+2022-04-05 15:40:02.7809 [I]-[ril.proatc] ATE0
+
+2022-04-05 15:40:02.7819 [I]-[ril.defurc] ATE0
+
+2022-04-05 15:40:02.7997 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.8014 [I]-[ril.defrsp] ATE0 true OK nil
+
+2022-04-05 15:40:02.8034 [I]-[ril.sendat] AT+CMEE=0
+
+2022-04-05 15:40:02.8283 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.8303 [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+
+2022-04-05 15:40:02.8313 [I]-[ril.sendat] AT+SIMCROSS?
+
+2022-04-05 15:40:02.8563 [I]-[ril.proatc] +SIMCROSS:0
+
+2022-04-05 15:40:02.8583 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.8613 [I]-[ril.sendat] AT+COPS?
+
+2022-04-05 15:40:02.8856 [I]-[ril.proatc] +COPS: 0
+
+2022-04-05 15:40:02.8868 [I]-[cops] nil nil nil
+
+2022-04-05 15:40:02.8885 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.8896 [I]-[ril.defrsp] AT+COPS? true OK nil
+
+2022-04-05 15:40:02.8915 [I]-[ril.sendat] AT+CREG=2
+
+2022-04-05 15:40:02.9160 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.9181 [I]-[ril.defrsp] AT+CREG=2 true OK nil
+
+2022-04-05 15:40:02.9201 [I]-[ril.sendat] AT+CGREG=2
+
+2022-04-05 15:40:02.9440 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.9460 [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+
+2022-04-05 15:40:02.9480 [I]-[ril.sendat] AT+CEREG=2
+
+2022-04-05 15:40:02.9719 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:02.9732 [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+
+2022-04-05 15:40:02.9762 [I]-[ril.sendat] AT+CREG?
+
+2022-04-05 15:40:03.0011 [I]-[ril.proatc] +CREG: 2,0,"0000","00000000",0
+
+2022-04-05 15:40:03.0032 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-05 15:40:03.0041 [I]-[net.creg7] 0 0
+
+2022-04-05 15:40:03.0051 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.0071 [I]-[ril.defrsp] AT+CREG? true OK nil
+
+2022-04-05 15:40:03.0093 [I]-[ril.sendat] AT+CGREG?
+
+2022-04-05 15:40:03.0339 [I]-[ril.proatc] +CGREG: 2,0,"0000","00000000"
+
+2022-04-05 15:40:03.0353 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-05 15:40:03.0373 [I]-[net.creg7] 0 nil
+
+2022-04-05 15:40:03.0379 [I]-[net.creg9 ignore!!!]
+
+2022-04-05 15:40:03.0395 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.0403 [I]-[ril.defrsp] AT+CGREG? true OK nil
+
+2022-04-05 15:40:03.0433 [I]-[ril.sendat] AT+CEREG?
+
+2022-04-05 15:40:03.0691 [I]-[ril.proatc] +CEREG: 2,0,"0000","00000000",0,0,0
+
+2022-04-05 15:40:03.0701 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-05 15:40:03.0711 [W]-[net.creg1] no match +CEREG: 2,0,"0000","00000000",0,0,0
+
+2022-04-05 15:40:03.0731 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.0751 [I]-[ril.defrsp] AT+CEREG? true OK nil
+
+2022-04-05 15:40:03.0771 [I]-[ril.sendat] AT+CALIBINFO?
+
+2022-04-05 15:40:03.1024 [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+
+2022-04-05 15:40:03.1024  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+
+2022-04-05 15:40:03.1036 [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+
+2022-04-05 15:40:03.1054 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.1084 [I]-[ril.sendat] AT*BAND?
+
+2022-04-05 15:40:03.1324 [I]-[ril.proatc] ERROR
+
+2022-04-05 15:40:03.1344 [I]-[ril.defrsp] AT*BAND? false ERROR nil
+
+2022-04-05 15:40:03.1363 [I]-[ril.sendat] AT+EEMOPT=1
+
+2022-04-05 15:40:03.1608 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.1643 [I]-[ril.sendat] AT+CSQ
+
+2022-04-05 15:40:03.1893 [I]-[ril.proatc] +CSQ: 99,99
+
+2022-04-05 15:40:03.1902 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.1933 [I]-[ril.sendat] AT+CESQ
+
+2022-04-05 15:40:03.2183 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+
+2022-04-05 15:40:03.2203 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.2233 [I]-[ril.sendat] AT+EEMGINFO?
+
+2022-04-05 15:40:03.2501 [I]-[ril.proatc] +EEMGINFO: 3, 0
+
+2022-04-05 15:40:03.2531 [I]-[ril.defurc] +EEMGINFO: 3, 0
+
+2022-04-05 15:40:03.2531 
+
+2022-04-05 15:40:03.2531 +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+2022-04-05 15:40:03.2531 
+
+2022-04-05 15:40:03.2541 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.2580 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+
+2022-04-05 15:40:03.2590 [I]-[ril.proatc] +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0
+
+2022-04-05 15:40:03.2604 , 0, 0, 0, 0, 0, 0
+
+2022-04-05 15:40:03.2640 [I]-[ril.sendat] AT+RNDISCALL=0,1
+
+2022-04-05 15:40:03.2890 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.2900 [I]-[ril.defrsp] AT+RNDISCALL=0,1 true OK nil
+
+2022-04-05 15:40:03.2929 [I]-[ril.sendat] AT+CIND=1
+
+2022-04-05 15:40:03.3169 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.3191 [I]-[ril.sendat] AT+WISN?
+
+2022-04-05 15:40:03.3434 [I]-[ril.proatc] 77645697668335
+
+2022-04-05 15:40:03.3453 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.3486 [I]-[ril.sendat] AT+CGSN
+
+2022-04-05 15:40:03.3742 [I]-[ril.proatc] 862289056492818
+
+2022-04-05 15:40:03.3761 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.3791 [I]-[ril.sendat] AT+MUID?
+
+2022-04-05 15:40:03.4030 [I]-[ril.proatc] +MUID: 20210820013642A166643A0927113686
+
+2022-04-05 15:40:03.4048 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.4078 [I]-[ril.sendat] AT*EXINFO?
+
+2022-04-05 15:40:03.4318 [I]-[ril.proatc] *EXINFO:poweron=3,assert=func=OPENAT_assert-line=ac-ra=0
+
+2022-04-05 15:40:03.4328 [I]-[ril.defurc] *EXINFO:poweron=3,assert=func=OPENAT_assert-line=ac-ra=0
+
+2022-04-05 15:40:03.4348 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.4358 [I]-[ril.defrsp] AT*EXINFO? true OK nil
+
+2022-04-05 15:40:03.4381 [I]-[ril.sendat] AT+CGMM
+
+2022-04-05 15:40:03.4632 [I]-[ril.proatc] +CGMM: "Air820UG"
+
+2022-04-05 15:40:03.4645 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.4672 [I]-[ril.sendat] AT+ICCID
+
+2022-04-05 15:40:03.4921 [I]-[ril.proatc] +ICCID: 898604A31921D1739023
+
+2022-04-05 15:40:03.4931 [I]-[ril.proatc] OK
+
+2022-04-05 15:40:03.4962 [I]-[ril.sendat] AT+CIMI
+
+2022-04-05 15:40:03.7403 [I]-[vbatt.read] 4541
+
+2022-04-05 15:40:04.1830 
+
+2022-04-05 15:40:04.1834 +CREG: 1,"8042","05ce7c99",7
+
+2022-04-05 15:40:04.1850 
+
+2022-04-05 15:40:04.1850 ^MODE: 17,17
+
+2022-04-05 15:40:04.1850 
+
+2022-04-05 15:40:04.1860 
+
+2022-04-05 15:40:04.1860 +CEREG: 1,"8042","05ce7c99",7
+
+2022-04-05 15:40:04.2040 
+
+2022-04-05 15:40:04.2050 *CGEV: ACT,5,"CMIOT.MNC008.MCC460.GPRS","10.204.225.168"
+
+2022-04-05 15:40:04.2100 
+
+2022-04-05 15:40:04.2100 +NITZ: 22/04/05,07:40:04+32,0
+
+2022-04-05 15:40:05.2471 
+
+2022-04-05 15:40:05.2471 SMS READY
+
+2022-04-05 15:40:13.8351 lua /lua/lbsLoc.lua:178: undefine PRODUCT_KEY in main.lua
+

@@ -1,5 +1,8 @@
 PROJECT = 'test'
 VERSION = '2.0.0'
+
+PRODUCT_KEY = "v32xEAKsGTIEQxtqgwCldp5aPlcnPs3K"
+
 require 'log'
 LOG_LEVEL = log.LOGLEVEL_TRACE
 require 'sys'
@@ -41,12 +44,16 @@ errDump.request("udp://dev_msg1.openluat.com:12425", nil, true)
 --require "update"
 --update.request()
 
+-- sys.timerLoopStart(net.getRssi,1000)
 --加载uart功能
 local one_uart = require("myuart")
 sys.taskInit(one_uart.taskRead)
 --加载ADC电压采集功能
 local one_adc = require("myadc")
 sys.timerLoopStart(one_adc.vbatt,1000)
+--加载基站定位及信号强度获取
+local one_lbsLoc = require("mylbsLoc")
+one_lbsLoc.reqLbsLoc()
 
 sys.init(0, 0)
 sys.run()
