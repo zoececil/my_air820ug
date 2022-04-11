@@ -56,6 +56,8 @@ one_lbsLoc.reqLbsLoc()
 --获取设备信号强度
 local one_nets = require("mynets")
 sys.timerLoopStart(one_nets.showRssi,5000)
+--获取设备wifi扫描信息
+require "mywifiscan"
 ---------------------------------------------------------------------------------------
 sys.init(0, 0)
 sys.run()
