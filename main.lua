@@ -58,6 +58,9 @@ local one_nets = require("mynets")
 sys.timerLoopStart(one_nets.showRssi,5000)
 --获取设备wifi扫描信息
 require "mywifiscan"
+--加载UI功能测试模块
+require"lcd"
+require"logo"
 ---------------------------------------------------------------------------------------
 sys.init(0, 0)
 sys.run()

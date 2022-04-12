@@ -10,7 +10,15 @@
 		"myuart.lua",
 		"myadc.lua",
 		"mylbsLoc.lua",
-		"mynets.lua"
+		"mynets.lua",
+		"mywifiscan.lua",
+		"mono_lcd_spi_ssd1306.lua",
+		"idle.lua",
+		"lcd.lua",
+		"logo.lua",
+		"logo_color.png",
+		"logo_color_240X320.png",
+		"prompt.lua"
 	],
 	"modulePort": ""
 }
