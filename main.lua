@@ -44,17 +44,18 @@ errDump.request("udp://dev_msg1.openluat.com:12425", nil, true)
 --require "update"
 --update.request()
 -------------------------------------------------------------------------------------
+require "testKeypad"
 --加载uart功能
 local one_uart = require("myuart")
 sys.taskInit(one_uart.taskRead)
---加载ADC电压采集功能
-local one_adc = require("myadc")
+-- --加载ADC电压采集功能
+one_adc = require("myadc")
 sys.timerLoopStart(one_adc.vbatt,1000)
 --加载基站定位及信号强度获取
 local one_lbsLoc = require("mylbsLoc")
 one_lbsLoc.reqLbsLoc()
 --获取设备信号强度
-local one_nets = require("mynets")
+one_nets = require("mynets")
 sys.timerLoopStart(one_nets.showRssi,5000)
 --获取设备wifi扫描信息
 require "mywifiscan"

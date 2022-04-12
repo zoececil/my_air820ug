@@ -18,7 +18,8 @@
 		"logo.lua",
 		"logo_color.png",
 		"logo_color_240X320.png",
-		"prompt.lua"
+		"prompt.lua",
+		"testKeypad.lua"
 	],
 	"modulePort": ""
 }

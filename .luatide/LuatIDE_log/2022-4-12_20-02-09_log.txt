@@ -1,0 +1,828 @@
+2022-04-12 20:02:12.5848 AT+LUATCONSOLE=1
+
+2022-04-12 20:02:12.6253 
+
+2022-04-12 20:02:12.6658 ATI
+
+2022-04-12 20:02:12.6860 
+
+2022-04-12 20:02:12.6860 LuatOS-HMI_V3211_RDA8910
+
+2022-04-12 20:02:12.7048 
+
+2022-04-12 20:02:12.7055 OK
+
+2022-04-12 20:02:12.7258 AT+LUACHECKSUM=ac4f796322ba33799127cf2955435676
+
+2022-04-12 20:02:12.7475 
+
+2022-04-12 20:02:12.7475 +LUACHECKSUM: 0
+
+2022-04-12 20:02:12.7652 
+
+2022-04-12 20:02:12.7652 OK
+
+2022-04-12 20:02:12.8142 > [I]-[poweron reason:] 3 test 2.0.0 2.4.2 LuatOS-HMI_V3211_RDA8910
+
+2022-04-12 20:02:12.8162 [I]-[core build time] Feb 11 2022 21:32:19
+
+2022-04-12 20:02:12.8192 [I]-[ril.proatc] RDY
+
+2022-04-12 20:02:12.8212 [I]-[ril.sendat] ATE0
+
+2022-04-12 20:02:12.8254 [I]-[ril.proatc] ATE0
+
+2022-04-12 20:02:12.8267 [I]-[ril.defurc] ATE0
+
+2022-04-12 20:02:12.8457 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:12.8668 [I]-[ril.defrsp] ATE0 true OK nil
+
+2022-04-12 20:02:12.8731 [I]-[ril.sendat] AT+CMEE=0
+
+2022-04-12 20:02:12.9490 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:12.9669 [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+
+2022-04-12 20:02:12.9869 [I]-[ril.sendat] AT+SIMCROSS?
+
+2022-04-12 20:02:13.0470 [I]-[ril.proatc] +SIMCROSS:0
+
+2022-04-12 20:02:13.0490 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:13.0670 [I]-[ril.sendat] AT+COPS?
+
+2022-04-12 20:02:13.3266 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:13.3467 [I]-[ril.proatc] +COPS: 0
+
+2022-04-12 20:02:13.3665 [I]-[cops] nil nil nil
+
+2022-04-12 20:02:13.3866 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:13.4066 [I]-[ril.defrsp] AT+COPS? true OK nil
+
+2022-04-12 20:02:13.4274 [I]-[ril.sendat] AT+CREG=2
+
+2022-04-12 20:02:13.5070 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:13.5270 [I]-[ril.defrsp] AT+CREG=2 true OK nil
+
+2022-04-12 20:02:13.5475 [I]-[ril.sendat] AT+CGREG=2
+
+2022-04-12 20:02:13.6262 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:13.6462 [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+
+2022-04-12 20:02:13.6671 [I]-[ril.sendat] AT+CEREG=2
+
+2022-04-12 20:02:13.7471 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:13.7670 [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+
+2022-04-12 20:02:13.7984 [I]-[ril.sendat] AT+CREG?
+
+2022-04-12 20:02:13.9087 [I]-[ril.proatc] +CREG: 2,0,"0000","00000000",0
+
+2022-04-12 20:02:13.9266 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:13.9462 [I]-[net.creg7] 0 0
+
+2022-04-12 20:02:13.9662 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:13.9870 [I]-[ril.defrsp] AT+CREG? true OK nil
+
+2022-04-12 20:02:14.0071 [I]-[ril.sendat] AT+CGREG?
+
+2022-04-12 20:02:14.0668 [I]-[ril.proatc] +CGREG: 2,0,"0000","00000000"
+
+2022-04-12 20:02:14.0868 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:14.1147 [I]-[net.creg7] 0 nil
+
+2022-04-12 20:02:14.1261 [I]-[net.creg9 ignore!!!]
+
+2022-04-12 20:02:14.1467 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.1666 [I]-[ril.defrsp] AT+CGREG? true OK nil
+
+2022-04-12 20:02:14.1875 [I]-[ril.sendat] AT+CEREG?
+
+2022-04-12 20:02:14.2664 [I]-[ril.proatc] +CEREG: 2,0,"0000","00000000",0,0,0
+
+2022-04-12 20:02:14.2865 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:14.2903 [W]-[net.creg1] no match +CEREG: 2,0,"0000","00000000",0,0,0
+
+2022-04-12 20:02:14.2912 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.2936 [I]-[ril.defrsp] AT+CEREG? true OK nil
+
+2022-04-12 20:02:14.2962 [I]-[ril.sendat] AT+CALIBINFO?
+
+2022-04-12 20:02:14.3202 [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+
+2022-04-12 20:02:14.3212  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+
+2022-04-12 20:02:14.3222 [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+
+2022-04-12 20:02:14.3232 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.3311 [I]-[ril.sendat] AT*BAND?
+
+2022-04-12 20:02:14.3541 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:14.3551 [I]-[ril.proatc] ERROR
+
+2022-04-12 20:02:14.3571 [I]-[ril.defrsp] AT*BAND? false ERROR nil
+
+2022-04-12 20:02:14.3582 [I]-[ril.sendat] AT+EEMOPT=1
+
+2022-04-12 20:02:14.3821 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.3890 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:14.4141 [I]-[ril.proatc] +CSQ: 99,99
+
+2022-04-12 20:02:14.4151 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.4171 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:14.4440 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+
+2022-04-12 20:02:14.4451 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.4520 [I]-[ril.sendat] AT+EEMGINFO?
+
+2022-04-12 20:02:14.4772 [I]-[ril.proatc] +EEMGINFO: 3, 0
+
+2022-04-12 20:02:14.4782 
+
+2022-04-12 20:02:14.4784 +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+2022-04-12 20:02:14.4787 
+
+2022-04-12 20:02:14.4792 [I]-[ril.defurc] +EEMGINFO: 3, 0
+
+2022-04-12 20:02:14.4812 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.4825 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+
+2022-04-12 20:02:14.4842 [I]-[ril.proatc] +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0
+
+2022-04-12 20:02:14.4850 , 0, 0, 0, 0, 0, 0
+
+2022-04-12 20:02:14.4931 [I]-[ril.sendat] AT+RNDISCALL=0,1
+
+2022-04-12 20:02:14.5171 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.5181 [I]-[ril.defrsp] AT+RNDISCALL=0,1 true OK nil
+
+2022-04-12 20:02:14.5201 [I]-[ril.sendat] AT+CIND=1
+
+2022-04-12 20:02:14.5441 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.5521 [I]-[ril.sendat] AT+WISN?
+
+2022-04-12 20:02:14.5773 [I]-[ril.proatc] 77645697668335
+
+2022-04-12 20:02:14.5780 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.5800 [I]-[ril.sendat] AT+CGSN
+
+2022-04-12 20:02:14.6041 [I]-[ril.proatc] 862289056492818
+
+2022-04-12 20:02:14.6109 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.6130 [I]-[ril.sendat] AT+MUID?
+
+2022-04-12 20:02:14.6378 [I]-[ril.proatc] +MUID: 20210820013642A166643A0927113686
+
+2022-04-12 20:02:14.6388 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.6408 [I]-[ril.sendat] AT*EXINFO?
+
+2022-04-12 20:02:14.6648 [I]-[ril.proatc] *EXINFO:poweron=3,assert=func=OPENAT_assert-line=ac-ra=0
+
+2022-04-12 20:02:14.6709 [I]-[ril.defurc] *EXINFO:poweron=3,assert=func=OPENAT_assert-line=ac-ra=0
+
+2022-04-12 20:02:14.6718 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.6728 [I]-[ril.defrsp] AT*EXINFO? true OK nil
+
+2022-04-12 20:02:14.6748 [I]-[ril.sendat] AT+CGMM
+
+2022-04-12 20:02:14.6998 [I]-[ril.proatc] +CGMM: "Air820UG"
+
+2022-04-12 20:02:14.7007 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.7028 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:14.7327 [I]-[ril.proatc] +CSQ: 99,99
+
+2022-04-12 20:02:14.7336 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.7356 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:14.7606 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+
+2022-04-12 20:02:14.7616 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.7636 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:14.7930 [I]-[ril.proatc] +CSQ: 99,99
+
+2022-04-12 20:02:14.7948 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.7967 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:14.8208 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+
+2022-04-12 20:02:14.8217 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.8238 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:14.8537 [I]-[ril.proatc] +CSQ: 99,99
+
+2022-04-12 20:02:14.8556 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:14.8576 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:14.8825 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+
+2022-04-12 20:02:14.8836 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:15.2136 
+
+2022-04-12 20:02:15.2136 +CPIN: READY
+
+2022-04-12 20:02:15.2177 
+
+2022-04-12 20:02:15.2177 ^CARDMODE: 2
+
+2022-04-12 20:02:15.2196 [I]-[ril.proatc] +CPIN: READY
+
+2022-04-12 20:02:15.2213 [I]-[ril.proatc] ^CARDMODE: 2
+
+2022-04-12 20:02:15.2221 [I]-[ril.defurc] ^CARDMODE: 2
+
+2022-04-12 20:02:15.2238 [I]-[ril.sendat] AT+ICCID
+
+2022-04-12 20:02:15.2288 [I]-[SIM.subscribe] nil RDY
+
+2022-04-12 20:02:15.2528 [I]-[ril.proatc] +ICCID: 898604A31921D1739023
+
+2022-04-12 20:02:15.2538 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:15.2568 [I]-[ril.sendat] AT+CIMI
+
+2022-04-12 20:02:15.3575 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:15.6123 [I]-[ril.proatc] 460082302609023
+
+2022-04-12 20:02:15.6141 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:16.3603 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:16.9274 AT+RESET
+
+2022-04-12 20:02:16.9282 
+
+2022-04-12 20:02:16.9284 OK
+
+2022-04-12 20:02:20.9966 AT+LUATCONSOLE=1
+
+2022-04-12 20:02:20.9976 
+
+2022-04-12 20:02:24.0292 
+
+2022-04-12 20:02:24.0292 +CPIN: READY
+
+2022-04-12 20:02:24.0302 
+
+2022-04-12 20:02:24.0305 ^CARDMODE: 2
+
+2022-04-12 20:02:25.2927 > lualibc_fopen fail -4200062,0,/lib_err.txt
+
+2022-04-12 20:02:25.2955 [E]-[errDump.luaErr] /lua/idle.lua:45: bad argument #2 to 'format' (number expected, got nil)
+
+2022-04-12 20:02:25.2955 stack traceback:
+
+2022-04-12 20:02:25.2962 	[C]: in function 'format'
+
+2022-04-12 20:02:25.2967 	/lua/idle.lua:45: in function 'onUpdate'
+
+2022-04-12 20:02:25.2970 	/lua/uiWin.lua:63: in function 'callback'
+
+2022-04-12 20:02:25.2975 	/lua/sys.lua:432: in function 'dispatch'
+
+2022-04-12 20:02:25.2979 	/lua/sys.lua:474: in function 'run'
+
+2022-04-12 20:02:25.2986 	/lua/main.lua:67: in main chunk
+
+2022-04-12 20:02:25.2986 	[C]: ?
+
+2022-04-12 20:02:25.2990 lualibc_fopen fail -4200062,0,/lib_network_err.txt
+
+2022-04-12 20:02:25.2996 [E]-[errDump.firmwareAssertErr] func=OPENAT_assert-line=ac-ra=0
+
+2022-04-12 20:02:26.0016 [I]-[poweron reason:] 3 test 2.0.0 2.4.2 LuatOS-HMI_V3211_RDA8910
+
+2022-04-12 20:02:26.0032 [I]-[core build time] Feb 11 2022 21:32:19
+
+2022-04-12 20:02:26.0066 [I]-[ril.proatc] RDY
+
+2022-04-12 20:02:26.0076 [I]-[ril.proatc] +CPIN: READY
+
+2022-04-12 20:02:26.0096 [I]-[ril.proatc] ^CARDMODE: 2
+
+2022-04-12 20:02:26.0108 [I]-[ril.defurc] ^CARDMODE: 2
+
+2022-04-12 20:02:26.0136 [I]-[ril.sendat] ATE0
+
+2022-04-12 20:02:26.0146 [I]-[SIM.subscribe] nil RDY
+
+2022-04-12 20:02:26.0206 [I]-[ril.proatc] ATE0
+
+2022-04-12 20:02:26.0220 [I]-[ril.defurc] ATE0
+
+2022-04-12 20:02:26.0375 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.0395 [I]-[ril.defrsp] ATE0 true OK nil
+
+2022-04-12 20:02:26.0425 [I]-[ril.sendat] AT+CMEE=0
+
+2022-04-12 20:02:26.0664 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.0674 [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+
+2022-04-12 20:02:26.0705 [I]-[ril.sendat] AT+SIMCROSS?
+
+2022-04-12 20:02:26.0954 [I]-[ril.proatc] +SIMCROSS:0
+
+2022-04-12 20:02:26.0964 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.0994 [I]-[ril.sendat] AT+COPS?
+
+2022-04-12 20:02:26.1244 [I]-[ril.proatc] +COPS: 0
+
+2022-04-12 20:02:26.1253 [I]-[cops] nil nil nil
+
+2022-04-12 20:02:26.1273 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.1283 [I]-[ril.defrsp] AT+COPS? true OK nil
+
+2022-04-12 20:02:26.1313 [I]-[ril.sendat] AT+CREG=2
+
+2022-04-12 20:02:26.1554 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.1573 [I]-[ril.defrsp] AT+CREG=2 true OK nil
+
+2022-04-12 20:02:26.1592 [I]-[ril.sendat] AT+CGREG=2
+
+2022-04-12 20:02:26.1831 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.1859 [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+
+2022-04-12 20:02:26.1871 [I]-[ril.sendat] AT+CEREG=2
+
+2022-04-12 20:02:26.2114 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.2130 [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+
+2022-04-12 20:02:26.2151 [I]-[ril.sendat] AT+CREG?
+
+2022-04-12 20:02:26.2410 [I]-[ril.proatc] +CREG: 2,0,"0000","00000000",0
+
+2022-04-12 20:02:26.2430 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:26.2441 [I]-[net.creg7] 0 0
+
+2022-04-12 20:02:26.2450 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.2470 [I]-[ril.defrsp] AT+CREG? true OK nil
+
+2022-04-12 20:02:26.2490 [I]-[ril.sendat] AT+CGREG?
+
+2022-04-12 20:02:26.2740 [I]-[ril.proatc] +CGREG: 2,0,"0000","00000000"
+
+2022-04-12 20:02:26.2760 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:26.2769 [I]-[net.creg7] 0 nil
+
+2022-04-12 20:02:26.2779 [I]-[net.creg9 ignore!!!]
+
+2022-04-12 20:02:26.2789 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.2809 [I]-[ril.defrsp] AT+CGREG? true OK nil
+
+2022-04-12 20:02:26.2829 [I]-[ril.sendat] AT+CEREG?
+
+2022-04-12 20:02:26.3083 [I]-[ril.proatc] +CEREG: 2,0,"0000","00000000",0,0,0
+
+2022-04-12 20:02:26.3098 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:26.3108 [W]-[net.creg1] no match +CEREG: 2,0,"0000","00000000",0,0,0
+
+2022-04-12 20:02:26.3128 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.3138 [I]-[ril.defrsp] AT+CEREG? true OK nil
+
+2022-04-12 20:02:26.3168 [I]-[ril.sendat] AT+CALIBINFO?
+
+2022-04-12 20:02:26.3229 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:26.3428 [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+
+2022-04-12 20:02:26.3437  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+
+2022-04-12 20:02:26.3447 [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+
+2022-04-12 20:02:26.3457 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.3487 [I]-[ril.sendat] AT*BAND?
+
+2022-04-12 20:02:26.3726 [I]-[ril.proatc] ERROR
+
+2022-04-12 20:02:26.3746 [I]-[ril.defrsp] AT*BAND? false ERROR nil
+
+2022-04-12 20:02:26.3776 [I]-[ril.sendat] AT+EEMOPT=1
+
+2022-04-12 20:02:26.4027 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.4056 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:26.4325 [I]-[ril.proatc] +CSQ: 99,99
+
+2022-04-12 20:02:26.4343 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.4364 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:26.4616 [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+
+2022-04-12 20:02:26.4635 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.4665 [I]-[ril.sendat] AT+EEMGINFO?
+
+2022-04-12 20:02:26.4916 
+
+2022-04-12 20:02:26.4916 +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+2022-04-12 20:02:26.4916 
+
+2022-04-12 20:02:26.4926 [I]-[ril.proatc] +EEMGINFO: 3, 0
+
+2022-04-12 20:02:26.4958 [I]-[ril.defurc] +EEMGINFO: 3, 0
+
+2022-04-12 20:02:26.4966 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.4987 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+
+2022-04-12 20:02:26.5006 [I]-[ril.proatc] +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0
+
+2022-04-12 20:02:26.5006 , 0, 0, 0, 0, 0, 0
+
+2022-04-12 20:02:26.5055 [I]-[ril.sendat] AT+RNDISCALL=0,1
+
+2022-04-12 20:02:26.5296 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.5325 [I]-[ril.defrsp] AT+RNDISCALL=0,1 true OK nil
+
+2022-04-12 20:02:26.5357 [I]-[ril.sendat] AT+CIND=1
+
+2022-04-12 20:02:26.5396 
+
+2022-04-12 20:02:26.5396 +CREG: 1,"8042","065b1644",7
+
+2022-04-12 20:02:26.5427 [I]-[ril.proatc] +CREG: 1,"8042","065b1644",7
+
+2022-04-12 20:02:26.5436 
+
+2022-04-12 20:02:26.5436 ^MODE: 17,17
+
+2022-04-12 20:02:26.5436 
+
+2022-04-12 20:02:26.5446 [I]-[net.creg1] 0 +CREG: 
+
+2022-04-12 20:02:26.5475 [I]-[net.creg7] 1 7
+
+2022-04-12 20:02:26.5485 
+
+2022-04-12 20:02:26.5489 +CEREG: 1,"8042","065b1644",7
+
+2022-04-12 20:02:26.5505 [I]-[net.UpdNetMode] nil 0 17 17
+
+2022-04-12 20:02:26.5526 [I]-[net.NET_UPD_NET_MODE] 4
+
+2022-04-12 20:02:26.5535 [I]-[ril.proatc] ^MODE: 17,17
+
+2022-04-12 20:02:26.5555 [I]-[net.UpdNetMode] nil 4 17 17
+
+2022-04-12 20:02:26.5565 [I]-[ril.proatc] +CEREG: 1,"8042","065b1644",7
+
+2022-04-12 20:02:26.5588 [I]-[net.creg1] 4 +CEREG: 
+
+2022-04-12 20:02:26.5602 [I]-[net.creg7] 1 7
+
+2022-04-12 20:02:26.5615 [I]-[net.UpdNetMode] nil 4 17 17
+
+2022-04-12 20:02:26.5635 [I]-[link.Pdp_Act] false 4 nil
+
+2022-04-12 20:02:26.5745 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.5786 [I]-[ril.sendat] AT+WISN?
+
+2022-04-12 20:02:26.5835 
+
+2022-04-12 20:02:26.5844 *CGEV: ACT,5,"CMIOT.MNC008.MCC460.GPRS","10.112.110.30"
+
+2022-04-12 20:02:26.5848 
+
+2022-04-12 20:02:26.5850 +NITZ: 22/04/12,12:02:26+32,0
+
+2022-04-12 20:02:26.5865 [I]-[ril.proatc] *CGEV: ACT,5,"CMIOT.MNC008.MCC460.GPRS","10.112.110.30"
+
+2022-04-12 20:02:26.5885 [I]-[ril.proatc] +NITZ: 22/04/12,12:02:26+32,0
+
+2022-04-12 20:02:26.6079 [I]-[ril.proatc] 77645697668335
+
+2022-04-12 20:02:26.6097 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.6129 [I]-[ril.sendat] AT+CGSN
+
+2022-04-12 20:02:26.6368 [I]-[ril.proatc] 862289056492818
+
+2022-04-12 20:02:26.6388 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.6418 [I]-[ril.sendat] AT+MUID?
+
+2022-04-12 20:02:26.6678 [I]-[ril.proatc] +MUID: 20210820013642A166643A0927113686
+
+2022-04-12 20:02:26.6698 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.6727 [I]-[ril.sendat] AT*EXINFO?
+
+2022-04-12 20:02:26.6976 [I]-[ril.proatc] *EXINFO:poweron=3,assert=func=OPENAT_assert-line=ac-ra=0
+
+2022-04-12 20:02:26.6989 [I]-[ril.defurc] *EXINFO:poweron=3,assert=func=OPENAT_assert-line=ac-ra=0
+
+2022-04-12 20:02:26.6996 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.7017 [I]-[ril.defrsp] AT*EXINFO? true OK nil
+
+2022-04-12 20:02:26.7046 [I]-[ril.sendat] AT+CGMM
+
+2022-04-12 20:02:26.7287 [I]-[ril.proatc] +CGMM: "Air820UG"
+
+2022-04-12 20:02:26.7305 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.7335 [I]-[ril.sendat] AT+ICCID
+
+2022-04-12 20:02:26.7585 [I]-[ril.proatc] +ICCID: 898604A31921D1739023
+
+2022-04-12 20:02:26.7598 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:26.7634 [I]-[ril.sendat] AT+CIMI
+
+2022-04-12 20:02:27.3269 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:27.5665 [I]-[link.pdpCmdCnf] SET_PDP_4G_WAITAPN true nil nil
+
+2022-04-12 20:02:27.6690 [I]-[link.pdpCmdCnf] SET_PDP_4G_WAITAPN true nil nil
+
+2022-04-12 20:02:27.7769 [I]-[link.pdpCmdCnf] SET_PDP_4G_WAITAPN true nil nil
+
+2022-04-12 20:02:27.7829 
+
+2022-04-12 20:02:27.7829 SMS READY
+
+2022-04-12 20:02:27.7958 [I]-[ril.proatc] 460082302609023
+
+2022-04-12 20:02:27.7968 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.7990 [I]-[ril.proatc] SMS READY
+
+2022-04-12 20:02:27.7998 [I]-[ril.defurc] SMS READY
+
+2022-04-12 20:02:27.8028 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:27.8288 [I]-[ril.proatc] +CSQ: 27,99
+
+2022-04-12 20:02:27.8298 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.8328 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:27.8587 [I]-[ril.proatc] +CESQ: 99,99,255,255,24,55
+
+2022-04-12 20:02:27.8597 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.8627 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:27.8798 [I]-[link.pdpCmdCnf] SET_PDP_4G_WAITAPN true nil nil
+
+2022-04-12 20:02:27.8897 [I]-[ril.proatc] +CSQ: 27,99
+
+2022-04-12 20:02:27.8917 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.8946 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:27.9196 [I]-[ril.proatc] +CESQ: 99,99,255,255,24,55
+
+2022-04-12 20:02:27.9208 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.9236 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:27.9495 [I]-[ril.proatc] +CSQ: 27,99
+
+2022-04-12 20:02:27.9505 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.9542 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:27.9786 [I]-[ril.proatc] +CESQ: 99,99,255,255,24,55
+
+2022-04-12 20:02:27.9804 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:27.9834 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:28.0099 [I]-[ril.proatc] +CSQ: 27,99
+
+2022-04-12 20:02:28.0110 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.0143 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:28.0392 [I]-[ril.proatc] +CESQ: 99,99,255,255,24,55
+
+2022-04-12 20:02:28.0402 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.0432 [I]-[ril.sendat] AT+EEMGINFO?
+
+2022-04-12 20:02:28.0682 [I]-[ril.proatc] +EEMGINFO: 3, 2
+
+2022-04-12 20:02:28.0702 [I]-[ril.defurc] +EEMGINFO: 3, 2
+
+2022-04-12 20:02:28.0714 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.0736 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+
+2022-04-12 20:02:28.0751 [I]-[ril.sendat] AT+COPS?
+
+2022-04-12 20:02:28.1819 [I]-[ril.proatc] +COPS: 0,2,"46000",7
+
+2022-04-12 20:02:28.1834 [I]-[cops] 2 46000 nil
+
+2022-04-12 20:02:28.1848 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.1869 [I]-[ril.defrsp] AT+COPS? true OK nil
+
+2022-04-12 20:02:28.1888 [I]-[ril.sendat] AT+CEREG?
+
+2022-04-12 20:02:28.2139 [I]-[ril.proatc] +CEREG: 2,1,"8042","065b1644",7
+
+2022-04-12 20:02:28.2158 [I]-[net.creg1] 4 +CEREG: 
+
+2022-04-12 20:02:28.2172 [I]-[net.creg7] 1 7
+
+2022-04-12 20:02:28.2178 [I]-[net.UpdNetMode] nil 4 17 17
+
+2022-04-12 20:02:28.2198 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.2217 [I]-[ril.defrsp] AT+CEREG? true OK nil
+
+2022-04-12 20:02:28.2237 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:28.2487 [I]-[ril.proatc] +CSQ: 27,99
+
+2022-04-12 20:02:28.2507 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.2537 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:28.2786 [I]-[ril.proatc] +CESQ: 99,99,255,255,24,55
+
+2022-04-12 20:02:28.2806 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:28.3305 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:29.2846 [I]-[ril.sendat] AT+CGDCONT?
+
+2022-04-12 20:02:29.3115 [I]-[ril.proatc] +CGDCONT: 5,"IP","CMIOT","10.112.110.30",0,0
+
+2022-04-12 20:02:29.3128 [I]-[link.pdpCmdCnf] AT+CGDCONT? true OK +CGDCONT: 5,"IP","CMIOT","10.112.110.30",0,0
+
+2022-04-12 20:02:29.3135 [I]-[analysis_cgdcont end] +CGDCONT: 5,"IP","CMIOT","10.112.110.30",0,0 nil nil
+
+2022-04-12 20:02:29.3151 [I]-[analysis_cgdcont ] 5 "IP" "CMIOT" 10.112.110.30
+
+2022-04-12 20:02:29.3164 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:29.3183 [I]-[link.pdpCmdCnf] CONNECT_DELAY true nil nil
+
+2022-04-12 20:02:29.3193 [I]-[publish IP_READY_IND]
+
+2022-04-12 20:02:29.3217 [I]-[ril.sendat] AT+CSQ
+
+2022-04-12 20:02:29.3273 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 UDP dev_msg1.openluat.com 12425 nil 120
+
+2022-04-12 20:02:29.3333 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 UDP 0.tw.pool.ntp.org 123 nil 120
+
+2022-04-12 20:02:29.3384 [I]-[lbsLoc.enCellInfo] 460.0.32834.106632772.28;
+
+2022-04-12 20:02:29.3503 [I]-[reqStr] 207633327845414B7347544945517874716777436C64703561506C636E5073334B2868229850462918F8203230323130383230303133363432
+
+2022-04-12 20:02:29.3512 41313636363433413039323731313336383601804201CC001C065B164400 87
+
+2022-04-12 20:02:29.3552 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 2 UDP bs.openluat.com 12411 nil 120
+
+2022-04-12 20:02:29.3602 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:29.3622 [I]-[ril.proatc] +CSQ: 27,99
+
+2022-04-12 20:02:29.3642 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:29.3672 [I]-[ril.sendat] AT+CESQ
+
+2022-04-12 20:02:29.3831 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+
+2022-04-12 20:02:29.3841 [I]-[socket:connect: connect ok]
+
+2022-04-12 20:02:29.3861 [D]-[socket.send] total 17 bytes first 30 bytes 
+
+2022-04-12 20:02:29.3971 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+
+2022-04-12 20:02:29.4002 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+
+2022-04-12 20:02:29.4021 [I]-[socket:connect: connect ok]
+
+2022-04-12 20:02:29.4058 [D]-[socket.send] total 48 bytes first 30 bytes �
+
+2022-04-12 20:02:29.4101 [I]-[socket:on_response:] 2 SOCKET_CONNECT 0
+
+2022-04-12 20:02:29.4121 [I]-[socket:connect: connect ok]
+
+2022-04-12 20:02:29.4131 [D]-[socket.send] total 87 bytes first 30 bytes  v32xEAKsGTIEQxtqgwCldp5aPlcnP
+
+2022-04-12 20:02:29.4180 [I]-[ril.proatc] +CESQ: 99,99,255,255,24,55
+
+2022-04-12 20:02:29.4200 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:29.4241 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+
+2022-04-12 20:02:29.4321 [I]-[socket:on_response:] 2 SOCKET_SEND 0
+
+2022-04-12 20:02:29.4779 [D]-[socket.recv] 8 nil
+
+2022-04-12 20:02:29.4819 [I]-[socket:sock_close] 0
+
+2022-04-12 20:02:29.4883 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+
+2022-04-12 20:02:29.5149 [D]-[socket.recv] 48 nil
+
+2022-04-12 20:02:29.5189 [I]-[ril.sendat] AT+CCLK="22/04/12,20:02:30+32"
+
+2022-04-12 20:02:29.5209 [I]-[socket:sock_close] 1
+
+2022-04-12 20:02:29.5248 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+
+2022-04-12 20:02:29.5269 [I]-[ntp.timeSync is date:] 2022/4/12,20:2:30
+
+2022-04-12 20:02:29.5538 [I]-[ril.proatc] OK
+
+2022-04-12 20:02:30.2398 [D]-[socket.recv] 17 nil
+
+2022-04-12 20:02:30.2418 [I]-[socket:sock_close] 2
+
+2022-04-12 20:02:30.2449 [I]-[socket:on_response:] 2 SOCKET_CLOSE 0
+
+2022-04-12 20:02:30.2488 [I]-[lbcLoc receive] 003050183664019378931716040C14021E 17
+
+2022-04-12 20:02:30.2527 [I]-[testLbsLoc.getLocCb] 0 030.5816346 103.9873971
+
+2022-04-12 20:02:30.2547 [I]-[服务器返回的时间] 16040C14021E 6
+
+2022-04-12 20:02:30.2558 [I]-[定位类型，基站定位成功返回0] 0
+
+2022-04-12 20:02:30.3402 [I]-[showRssi(dBm)] -59
+
+2022-04-12 20:02:30.3635 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:31.0742 
+
+2022-04-12 20:02:31.0742 +EEMLTESVC: 1120, 2, 0, 32834, 142, 40936, 40936, 41, 5, 106632772, 7, 55, 22, 19, 55, 22, 55, 22, 65535, 0, -1, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+
+2022-04-12 20:02:31.0752 
+
+2022-04-12 20:02:31.0752 +EEMLTEINTRA:0,0,0,0,0,0,0,0,0
+
+2022-04-12 20:02:31.0769 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 32834, 142, 40936, 40936, 41, 5, 106632772, 7, 55, 22, 19, 55, 22, 55, 22, 65535, 0, -
+
+2022-04-12 20:02:31.0782 1, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+
+2022-04-12 20:02:31.0813 [I]-[eemLteSvc1] 32834 106632772  1120 0
+
+2022-04-12 20:02:31.3667 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:32.3697 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:33.3742 [I]-[vbatt.read(mV)] 100
+
+2022-04-12 20:02:44.0710 lua /lua/idle.lua:45: bad argument #2 to 'format' (number expected, got nil)
+
