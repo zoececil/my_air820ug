@@ -2,6 +2,8 @@ require "lbsLoc"
 
 local myLbsLoc_Temp = {}
 
+myLbsLoc_Temp.mylat = 0
+myLbsLoc_Temp.mylng = 0
 --[[
 功能  ：发送查询位置请求
 参数  ：无
@@ -25,6 +27,8 @@ function myLbsLoc_Temp.getLocCb(result,lat,lng,addr,time,locType)
     if result==0 then
         log.info("服务器返回的时间", time:toHex())
         log.info("定位类型，基站定位成功返回0", locType)
+        myLbsLoc_Temp.mylat = lat
+        myLbsLoc_Temp.mylng = lng
     --失败
     else
     end

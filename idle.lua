@@ -70,7 +70,8 @@ local function refresh()
         disp.puttext(testKeypad.page_num,119,45)
         disp.puttext(common.utf8ToGb2312("学生定位"),lcd.getxpos(common.utf8ToGb2312("学生定位")),2)
         disp.puttext(common.utf8ToGb2312("----------------"),0,11)
-    
+        local lbsLocstr = string.format("%.3f",one_lbsLoc.mylat)..","..string.format("%.3f",one_lbsLoc.mylng)
+        disp.puttext(lbsLocstr,0,20)
     elseif testKeypad.page_num==4 then
         disp.puttext(testKeypad.page_num,119,45)
         disp.puttext(common.utf8ToGb2312("拍照功能"),lcd.getxpos(common.utf8ToGb2312("拍照功能")),2)

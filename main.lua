@@ -52,7 +52,7 @@ sys.taskInit(one_uart.taskRead)
 one_adc = require("myadc")
 sys.timerLoopStart(one_adc.vbatt,1000)
 --加载基站定位及信号强度获取
-local one_lbsLoc = require("mylbsLoc")
+one_lbsLoc = require("mylbsLoc")
 one_lbsLoc.reqLbsLoc()
 --获取设备信号强度
 one_nets = require("mynets")
