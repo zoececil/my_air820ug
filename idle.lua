@@ -68,10 +68,19 @@ local function refresh()
         disp.puttext(common.utf8ToGb2312("----------------"),0,11)
     elseif testKeypad.page_num==3 then
         disp.puttext(testKeypad.page_num,119,45)
-        disp.puttext(common.utf8ToGb2312("其他功能"),lcd.getxpos(common.utf8ToGb2312("其他功能")),2)
+        disp.puttext(common.utf8ToGb2312("学生定位"),lcd.getxpos(common.utf8ToGb2312("学生定位")),2)
+        disp.puttext(common.utf8ToGb2312("----------------"),0,11)
+    
+    elseif testKeypad.page_num==4 then
+        disp.puttext(testKeypad.page_num,119,45)
+        disp.puttext(common.utf8ToGb2312("拍照功能"),lcd.getxpos(common.utf8ToGb2312("拍照功能")),2)
+        disp.puttext(common.utf8ToGb2312("----------------"),0,11)
+    
+    elseif testKeypad.page_num==5 then
+        disp.puttext(testKeypad.page_num,119,45)
+        disp.puttext(common.utf8ToGb2312("本地对讲"),lcd.getxpos(common.utf8ToGb2312("本地对讲")),2)
         disp.puttext(common.utf8ToGb2312("----------------"),0,11)
     end
-    
     --刷新LCD显示缓冲区到LCD屏幕上
     disp.update()
     lcd.setcolor(oldColor)

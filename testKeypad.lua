@@ -27,8 +27,8 @@ local function keyMsg(msg)
         if msg.pressed then
             log.info("keyMsg","SW5")   --up
             page_num=page_num+1
-            if page_num>=3 then
-                page_num=3
+            if page_num>=5 then
+                page_num=5
             end
         else
 
