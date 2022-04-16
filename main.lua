@@ -45,6 +45,8 @@ errDump.request("udp://dev_msg1.openluat.com:12425", nil, true)
 --update.request()
 -------------------------------------------------------------------------------------
 require "testKeypad"
+require "mpu6xxx"
+
 --加载uart功能
 local one_uart = require("myuart")
 sys.taskInit(one_uart.taskRead)

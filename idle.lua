@@ -11,7 +11,7 @@ require"misc"
 require"ntp"
 require"common"
 require"testKeypad"
-
+require"mpu6xxx"
 --appid：窗口id
 local appid
 
@@ -66,6 +66,12 @@ local function refresh()
         disp.puttext(testKeypad.page_num,119,45)
         disp.puttext(common.utf8ToGb2312("学生行为观测"),lcd.getxpos(common.utf8ToGb2312("学生行为观测")),2)
         disp.puttext(common.utf8ToGb2312("----------------"),0,11)
+        local mpu6050str1 = "A:"..string.format("%.0f",mpu6xxx.test1.x)..","..string.format("%.0f",mpu6xxx.test1.y)..","..string.format("%.0f",mpu6xxx.test1.z).." mg"
+        local mpu6050str2 = "G:"..string.format("%.0f",mpu6xxx.test2.x)..","..string.format("%.0f",mpu6xxx.test2.y)..","..string.format("%.0f",mpu6xxx.test2.z).." d/s"
+        local mpu6050str3 = "T:"..string.format("%.2f",mpu6xxx.test).." C"
+        disp.puttext(mpu6050str1,0,20)
+        disp.puttext(mpu6050str2,0,34)
+        disp.puttext(mpu6050str3,0,48)
     elseif testKeypad.page_num==3 then
         disp.puttext(testKeypad.page_num,119,45)
         disp.puttext(common.utf8ToGb2312("学生定位"),lcd.getxpos(common.utf8ToGb2312("学生定位")),2)
@@ -81,6 +87,10 @@ local function refresh()
         disp.puttext(testKeypad.page_num,119,45)
         disp.puttext(common.utf8ToGb2312("本地对讲"),lcd.getxpos(common.utf8ToGb2312("本地对讲")),2)
         disp.puttext(common.utf8ToGb2312("----------------"),0,11)
+        local rdastr1 = "FBand:65M-115M"
+        local rdastr2 = "CurrF:"
+        disp.puttext(rdastr1,0,20)
+        disp.puttext(rdastr2,0,34)
     end
     --刷新LCD显示缓冲区到LCD屏幕上
     disp.update()
