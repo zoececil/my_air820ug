@@ -1,9 +1,9 @@
 {
-	"version": "2.2",
+	"version": "2.3",
 	"projectType": "pure",
-	"corePath": "C:\\Users\\16708\\AppData\\Roaming\\LuatIDE\\LuatideCore\\Air72XUX_CORE\\LuatOS-HMI_V3211_RDA8910.pac",
+	"corePath": "c:\\Users\\16708\\AppData\\Roaming\\LuatIDE\\LuatideCore\\Air72XUX_CORE\\LuatOS-Air_V3211_RDA8910.pac",
 	"libPath": "C:\\Users\\16708\\AppData\\Roaming\\LuatIDE\\LuatideLib\\Air72XUX_LIB\\V2.4.2\\lib",
-	"moduleModel": "air72XUX/air82XUX",
+	"moduleModel": "air72XUX/Air82XUX",
 	"appFile": [
 		"luatide_project.json",
 		"main.lua",
@@ -20,22 +20,11 @@
 		"logo_color_240X320.png",
 		"prompt.lua",
 		"testKeypad.lua",
-		"mpu6xxx.lua"
+		"mpu6xxx.lua",
+		"testCamera.lua",
+		"testUartSentFile.lua",
+		"gsensor.lua"
 	],
 	"modulePort": "",
-	"ignore": [
-		".git\\objects\\2d\\df8e363f9298e831643ce30f6d746fc568c39a",
-		".git\\objects\\2e\\8355e6b46bc616a296885f84eb976836c8c2d7",
-		".git\\objects\\35\\7e6e07d5d1e1edb8530bbd40678e28eeb3f3a0",
-		".git\\objects\\40\\ccc26d3c7da6e847c1dcba16e2f7c9a5bdd5cc",
-		".git\\objects\\43",
-		".git\\objects\\43\\79952c59b9db80badf3679d2b88bec472365a2",
-		".git\\objects\\70\\9c360ed7e20284f7f29cd4a8654e95c3c196bf",
-		".git\\objects\\8d",
-		".git\\objects\\8d\\f926e9b0d16a6247adba44369584e3af3d44f1",
-		".git\\objects\\9d\\e3ef4ed3d2b38acb23aaa3aa0cb619cb3dd4e6",
-		".git\\objects\\e0\\7e5bc5970e9593229f537c66cc20dd3af75aa1",
-		".git\\objects\\ee",
-		".git\\objects\\ee\\67bcb53e7de581caec82409d89c649c125d492"
-	]
+	"ignore": []
 }

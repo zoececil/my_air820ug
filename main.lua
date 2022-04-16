@@ -45,7 +45,9 @@ errDump.request("udp://dev_msg1.openluat.com:12425", nil, true)
 --update.request()
 -------------------------------------------------------------------------------------
 require "testKeypad"
-require "mpu6xxx"
+-- require "mpu6xxx"
+require "gsensor"
+require"testCamera"
 
 --加载uart功能
 local one_uart = require("myuart")

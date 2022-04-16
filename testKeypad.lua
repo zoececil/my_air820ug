@@ -28,7 +28,7 @@ local function keyMsg(msg)
             log.info("keyMsg","SW5")   --up
             page_num=page_num+1
             if page_num>=5 then
-                page_num=5
+                page_num=1
             end
         else
 
@@ -38,7 +38,7 @@ local function keyMsg(msg)
             log.info("keyMsg","SW6")   --down
             page_num=page_num-1
             if page_num<=1 then
-                page_num=1
+                page_num=5
             end
         else
 
